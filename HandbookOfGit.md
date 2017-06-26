@@ -55,7 +55,7 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 ## Git的安装与配置
 
 在Ubuntu上，直接通过命令
-```she&amp;amp;amp;#39;ll
+```she&amp;amp;amp;amp;#39;ll
 			sudo apt-get install git
 ```
 即可安装完成。
@@ -681,7 +681,10 @@ To git@github.com:michaelliao/learngit.git
 
     命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
+
 ##使用github
+
+
 
 这里推荐几个网址博文供大家学习使用
 
