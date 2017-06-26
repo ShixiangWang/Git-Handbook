@@ -55,7 +55,7 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 ## Git的安装与配置
 
 在Ubuntu上，直接通过命令
-```she&amp;amp;#39;ll
+```she&amp;amp;amp;#39;ll
 			sudo apt-get install git
 ```
 即可安装完成。
@@ -703,7 +703,13 @@ To git@github.com:michaelliao/learngit.git
 
 
 
+***
 
 **参考博文**：
 [Git学习手册](http://www.cnblogs.com/python27/archive/2013/04/14/3017448.html)
 [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
+
+***
+
+文档Github地址：<https://github.com/ShixiangWang/Git-Hankbook>
+
