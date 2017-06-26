@@ -1,4 +1,4 @@
-# Git-Hankbook
+# Git-Handbook
 
 [Markdonw格式文档](https://github.com/ShixiangWang/Git-Hankbook/blob/master/HandbookOfGit.md)
 
