@@ -1,18 +1,10 @@
 # Git使用手册
 
-**目录**：
 
-- [Git是什么](#Git是什么)
-  - [基本概念](#基本概念)
-  - [Git的诞生](#Git的诞生)
-- [Git的安装与配置](#Git的安装与配置)
-- [创建版本库](#创建版本库)
-- [Git操作略览](#Git操作略览)
-- [远程仓库：git的杀招](#远程仓库：git的杀招)
-- [分支管理](#分支管理)
-- [便签管理](#便签管理)
-- [使用github](#使用github)
-- [自定义Git](#自定义Git)
+**目录：**
+
+* TOC
+{:toc}
 
 
 
@@ -55,8 +47,9 @@ Git迅速成为最流行的分布式版本控制系统，尤其是2008年，GitH
 ## Git的安装与配置
 
 在Ubuntu上，直接通过命令
-```she&amp;amp;amp;amp;amp;#39;ll
-			sudo apt-get install git
+
+```shell
+sudo apt-get install git
 ```
 即可安装完成。
 
@@ -80,6 +73,7 @@ $ git config --global user.email "email@example.com"
 什么是版本库呢？版本库又名仓库，英文名repository，你可以简单理解成一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改、删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻可以“还原”。
 
 所以，创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：
+
 ```bash
 $ mkdir learngit
 $ cd learngit
@@ -418,7 +412,7 @@ Git鼓励大量使用分支：
 删除分支：`git branch -d <name>`
 
 
-###解决冲突
+### 解决冲突
 
 当我们在`master`和另一个分支对某个文档同时进行了修改，`git`无法对它们进行合并，导致冲突。
 
@@ -430,7 +424,7 @@ Git鼓励大量使用分支：
 
 具体实例参考[解决冲突](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840202368c74be33fbd884e71b570f2cc3c0d1dcf000)
 
-###[分支策略](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758410364457b9e3d821f4244beb0fd69c61a185ae0000)
+### [分支策略](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758410364457b9e3d821f4244beb0fd69c61a185ae0000)
 
 在实际开发中，我们应该按照几个基本原则进行分支管理：
 
@@ -444,16 +438,16 @@ Git鼓励大量使用分支：
 
 ![](http://upload-images.jianshu.io/upload_images/3884693-a839f97f5132295e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-####[bug分支](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)
+#### [bug分支](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137602359178794d966923e5c4134bc8bf98dfb03aea3000)
 - 简介：
   软件开发中，bug就像家常便饭一样。有了bug就需要修复，在Git中，由于分支是如此的强大，所以，每个bug都可以通过一个新的临时分支来修复，修复后，合并分支，然后将临时分支删除。
 
-####[feature分支](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376026233004c47f22a16d1f4fa289ce45f14bbc8f11000)
+#### [feature分支](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376026233004c47f22a16d1f4fa289ce45f14bbc8f11000)
 - 简介：
   软件开发中，总有无穷无尽的新的功能要不断添加进来。
   添加一个新功能时，你肯定不希望因为一些实验性质的代码，把主分支搞乱了，所以，每添加一个新功能，最好新建一个feature分支，在上面开发，完成后，合并，最后，删除该feature分支。
 
-####[多人协作](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
+#### [多人协作](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
 
 当你从远程仓库克隆时，实际上Git自动把本地的`master`分支和远程的`master`分支对应起来了，并且，远程仓库的默认名称是`origin`。
 
@@ -671,7 +665,7 @@ To git@github.com:michaelliao/learngit.git
 要看看是否真的从远程库删除了标签，可以登陆GitHub查看。
 未完待续.......
 
-####小结
+#### 小结
 
     命令git push origin <tagname>可以推送一个本地标签；
 
@@ -682,8 +676,7 @@ To git@github.com:michaelliao/learngit.git
     命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
 
 
-##使用github
-
+## 使用github
 
 
 这里推荐几个网址博文供大家学习使用
@@ -708,11 +701,9 @@ To git@github.com:michaelliao/learngit.git
 
 ***
 
-**参考博文**：
-[Git学习手册](http://www.cnblogs.com/python27/archive/2013/04/14/3017448.html)
-[Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
+## 参考博文
 
-***
+* [Git学习手册](http://www.cnblogs.com/python27/archive/2013/04/14/3017448.html)
+* [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
 
-文档Github地址：<https://github.com/ShixiangWang/Git-Hankbook>
 
