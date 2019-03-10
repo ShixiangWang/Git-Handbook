@@ -5,12 +5,6 @@
 {:toc}
 
 
-***
-
-如果你要访问网页版，请[点击阅读](https://shixiangwang.github.io/Git-Handbook/HandbookOfGit.html)。
-
-***
-
 ## Git是什么
 
 Git是目前世界上最先进的分布式版本控制系统（没有之一）。
