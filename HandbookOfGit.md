@@ -1,5 +1,3 @@
-# Git使用手册
-
 
 **目录：**
 
@@ -7,6 +5,11 @@
 {:toc}
 
 
+***
+
+如果你要访问网页版，请[点击阅读](https://shixiangwang.github.io/Git-Handbook/HandbookOfGit.html)。
+
+***
 
 ## Git是什么
 
