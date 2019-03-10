@@ -1,6 +1,6 @@
 # Git-Handbook
 
-[在线阅读](HandbookOfGit.md)
+[在线阅读](https://shixiangwang.github.io/Git-Handbook/HandbookOfGit.html)
 
 欢迎大家参与该文档的修改、编辑。
 
